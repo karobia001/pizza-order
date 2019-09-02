@@ -1,0 +1,94 @@
+#home {
+  background-image: url(https://www.barraques.cat/pngfile/big/147-1470250_pizza-cooking-pizza.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+}
+
+ul li{
+    padding:20px;
+    font-family: 'Lobster', cursive;
+}
+li a:hover {
+    text-shadow:4px  4px black;
+    color: white;
+  } 
+  h1{
+    font-family: 'Lobster', cursive;
+    color:antiquewhite;
+    text-align: center;
+    padding-top: 250px;
+    text-shadow: 2px 2px red;
+  }
+  ul{
+    font-size: 30px;
+    color: white;
+    font-family: 'Lobster', cursive;
+  
+  }
+  li>a{
+    color: antiquewhite !important;
+  }
+  h3{
+    font-family: 'Permanent Marker', cursive;
+    color:aqua;
+    text-align: center;
+  }
+  nav{
+    position: sticky !important;
+  }
+  h4{
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+  }
+  #about{
+    background-image: url(https://i2-prod.dailyrecord.co.uk/incoming/article13965897.ece/ALTERNATES/s615/0_GettyImages-995467932.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+  }
+  .container2{
+    background-color: black;
+    opacity: 0.8;
+  }
+  p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 40px;
+    color: red;
+    font-family: 'Kaushan Script', cursive;
+  }
+#order{
+  background-image: url(https://media.giphy.com/media/84GPVK2F37zFK/giphy.gif);
+
+}
+#now{
+  background-color: black;
+  opacity: 1.1;
+  color:white;
+}
+#contact{
+  background-image: url(https://res.cloudinary.com/teepublic/image/private/s--v09DSZyS--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1446203269/production/designs/155828_1.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+}
+#face{
+  color: blue;
+}
+#twit{
+  color:aqua;
+}
+#tube{
+  color: red;
+}
+.jumbotron{
+  opacity: 0.8;
+}
+#icon i:hover{
+  color: blue;
+}
+#icon{
+  text-align: center;
+}

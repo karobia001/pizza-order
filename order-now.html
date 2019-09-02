@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pizza order</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="order">
+    <div class="container" id="now">
+        <nav class="navbar navbar-expand-lg navbar-light" id="pp">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+                aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+            
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzyT4ES3lgJBgB_yp5ik-ifQ7Gia6fxrPu34Mkpzr59nxJZdNl" width="100">
+                </a>
+    
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about-us.html">about us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="order-now.html">order now</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="contact-us.html">contact us</a>
+                        </li>
+                </ul>
+        </nav>
+            <div id="intro">
+              <h1>Welcome to<strong>Marchisios ordering site</strong></h1>
+                <p>Each slice is always the one.</p>
+            </div>
+            <div id="build" class="row justify-content-center align-items-center">
+            </div>
+          </intro>
+          <div class="row justify-content-center align-items-center" id="menu">
+            <h2><strong>Pick a Size:</strong></h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTdo78RrOGasJEde15liUz-3ih6egtqM3KtrR-6gWmjFKTcHK6" alt="pizza sizes" class="img-fluid">
+              <form class="size" id="size">
+                <input type="radio" name="size" value="0" checked>Large ksh.550<br>
+                <input type="radio" name="size" value="1" >Medium ksh.400<br>
+                <input type="radio" name="size" value="2" >Small ksh.200<br><br><br><br>
+                <br><br> <input type="submit" value="submit">
+              </form>
+          </div>
+         
+            <h2><strong>Pick a Crust:</strong></h2>
+            <form class="form-inline" id="crust"></form>
+            <div class="row">
+              <div class="col-md-4 crust">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREONiS4fC2Ly2uu5Uv0fvpMG8TKZwdvpBbDyNppoLFApwGjJln" alt="thin crust"  height="200" width="200">
+                <input type="radio" name="crust" value="0" checked>Thin Crust <br> ksh.70<br>
+              </div>
+              <div class="col-md-4 crust">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKaQaVrIBiozGYVsO2vlFuS431gV4Z02TwvfjOwWtXPq7zOU7E4w" alt="thickcrust" height="200" width="200">
+                <input type="radio" name="crust" value="1">Thick Crust ksh.100<br>
+              </div>
+              <div class="col-md-4 crust">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsHoVp0dtkl8N1tdl9y7I8OL_zR9toCwrS0QyDkb10s3ooTIP8" alt="deepcrust" height="200" width="200">
+                <input type="radio" name="crust" value="2">Deep Crust ksh.100<br>
+              </div>
+              <div class="row">
+              <div class="col-md-4 crust">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzjIugXiBCngB6Iy6QSnzG_kX91OjGRDKVRNPtZyh4pwNpoUfd" alt="cheesecrust" height="200" width="200" >
+                <input type="radio" name="crust" value="3">Cheese Crust ksh.150<br>
+              </div>
+             
+              <div class="col-md-4 crust">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2AEochbGCrcO0_lCZVPk1IDJ26n2qgMfe-7T_3Hr7IRz0P0JC" alt="stuffedcrust" height="200" width="200">
+                <input type="radio" name="crust" value="4">Stuffed Crust ksh.250<br>
+              </div>
+              <div class="col-md-4 crust">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5T_SDI7u6Wt-Cbi5x165ixjckRYjKHW945a1QAH5bphMEG9ZQ" alt="neopolitan crust" height="200" width="200">
+                <input type="radio" name="crust" value="4">Neopolitan Crust ksh.350<br>
+              </div>
+              </div>
+              <input type="submit" value="check total price upto now">
+    
+              </form>
+    
+          </div>
+          <div class="row justify-content-center align-items-center">
+              <h2><strong>Pick your Toppings:</strong></h2>
+              <form class="form-inline" id="toppings">
+                <div class="col-md toppings">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3YeK-txghPAhkprYanEh4a9Cfgi6Cb1Ie-xWmAV03ZpMmA8ka" alt="bbq sauce" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="0">Barbecue Sauce<br>
+                </div>
+                <div class="col-md toppings">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRolwD9NziR71tZ0WLN45OOpV-VYMsKqZkNd27exNhxM0cZbdsP" alt="mushrooms" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="1">mushrooms<br>
+                </div>
+                <div class="col-md toppings">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR080I3p7ECr-RYQ7DsCtL0cpuESMgPq4eclGtpzIZOT_9F_iY0" alt="cheese" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="2">extra Cheese<br>
+                </div>
+                <div class="col-md toppings">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRl62RNBlx_sMTWTmvDdhHjb5ZajzLMwJKaECNrz4kucsrYX5y" alt="sausage" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="3">sausage<br>
+                </div>
+                <div class="col-md toppings">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDmpXzNEkAMCbbi99QVv4ceWXejlZ1gSYxAiGjzNc8zS_pEe6V" alt="onions" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="4">onions<br>
+                </div>
+                <div class="col-md toppings">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqm2nkX1epJ_zSISOALc82KcZgVlXFMsmLTXCZBxkWh9lvYVPs" alt="black olives" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="5">black olives<br>
+                </div>
+                <div class="col-md toppings">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtyvUA2kreRgZlNaQO3nyJqTc3_P9L_IsH_bWO7vr-uJRO5CMe" alt="green pepper" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="6">green pepper<br>
+                </div>
+                <div class="col-md toppings">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdi2gzOwVnnRNY2H-91ep8hm3BItT-cYJIfOSBo1XLm95qPtwT" alt="spinach" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="7">spinach<br>
+                </div>
+                <div class="col-md toppings">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr1Ro9S9OtpvZCO9bDsk808zx5Hv8RxFgRXilM7pTA91IV1fXn" alt="bell" height="120" width="160">
+                  <input type="checkbox" name="toppings" value="8">bell peppper<br>
+                </div>
+                <input value= "check total price upto now" type="submit">
+    
+              </form>
+          </div>
+          <div class="row justify-content-center align-items-center" id="sides">
+            <h2><strong>How Many Pizzas do you want?</strong></h2>
+            <div class="col-md-4">
+                <form id="number">
+                    <input type="number" id="quantity" name="quantity" min="1">
+                    <input type="submit">
+                  </form>
+            </div>
+          </div>
+          
+          <div class="row justify-content-center align-items-center" id="checkout">
+              <h2><strong>Delivery/Pickup</strong></h2>
+                <button id="delivery" class="btn-warning btn-block btn-lg delivery-button"><i class="fa fa-truck" aria-hidden="true"></i> Delivery ksh.100</button>
+                <form class="delivery">
+                  <h4>What's the delivery address?</h4>
+                  <input type="text" id="street"name="street" value="street">Street:<br>
+                  <input type="text" id="building" name="building" value="building">Building:<br>
+                  <input type="text" id="houseNumber" name="houseNumber" value="houseNumber">House Number:<br>
+                  <input type="submit">
+                </form>
+                <button id="pickup" class="grey btn-block btn-lg pickup-button"><i class="fa fa-user" aria-hidden="true"></i> Pickup (free)</button>
+          </div>
+          <button class="btn-primary btn-lg check-out-button" id="check-out-button"><i class="fa fa-cutlery" aria-hidden="true"></i> SEE RECIPT</button>
+
+    
+          
+          
+                  <h2>Here's your order:</h2>
+                  <ul id="checkouts">
+                      
+                  </ul>
+        
+            <script src="js/menu.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="js/  jquery-1.12.0.js"></script>
+    <script src="js/scripts.js"></script>
+    </div>
+</body>
+
+</html>
